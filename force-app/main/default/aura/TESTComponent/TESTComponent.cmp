@@ -1,0 +1,23 @@
+<aura:component controller="Controller1"
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute type="map" name="mapAttr" />
+    <div style="padding: 5rem;">
+        <p><a id="1-a" onclick="{!c.aa}"> 1-a Example link</a></p>
+        <p><a id="1-b" onclick="{!c.aa}"> 1-b Example link</a></p>
+        <p><a id="1-b" onclick="{!c.aa}"> 1-b Example link</a></p>
+        <p><a id="1-c" onclick="{!c.aa}"> 1-c Example link</a></p>
+        <p><a id="1-d" onclick="{!c.aa}"> 1-d Example link</a></p>
+        <p><a id="2-a" onclick="{!c.aa}"> 2-a Example link</a></p>
+        <p><a id="2-b" onclick="{!c.aa}"> 2-b Example link</a></p>
+        <p><a id="2-c" onclick="{!c.aa}"> 4-b Example link</a></p>
+        <p><a id="3-a" onclick="{!c.aa}"> 3-a Example link</a></p>
+        <p><a id="3-b" onclick="{!c.aa}"> 3-b Example link</a></p>
+        <p><a id="3-c" onclick="{!c.aa}"> 4-b Example link</a></p>
+        <p><a id="4-a" onclick="{!c.aa}"> 4-a Example link</a></p>
+        <p><a id="4-b" onclick="{!c.aa}"> 4-b Example link</a></p>
+        <p><a id="4-c" onclick="{!c.aa}"> 4-b Example link</a></p>
+    </div>
+    <lightning:button label="Call server" onclick="{!c.echo}"/>
+    
+    <p><a id="1-a" onclick="{!c.dwonloadFile}"> 1-a Example link</a></p>
+</aura:component>

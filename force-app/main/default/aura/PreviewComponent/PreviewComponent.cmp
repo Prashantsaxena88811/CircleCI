@@ -1,0 +1,33 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <!--<lightning:button label="Open a single file" onclick="{! c.openSingleFile }"/>-->
+    
+    System.debug('11111');
+    <iframe src="https://prashantdxexp-dev-ed--c.visualforce.com/apex/AudioPlay" width="400" height="400"/>
+    <audio controls="controls" autoplay="true">
+        <source src="horse.ogg" type="audio/ogg"/>
+        <source src="horse.mp3" type="audio/mpeg"/>
+        Your browser does not support the audio element.
+    </audio>
+    
+    <audio controls="true" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" autoplay="true">
+        
+    </audio>
+    <audio controls="true" src="https://prashantdxexp-dev-ed.my.salesforce.com/sfc/p/0o0000016A6V/a/0o000000II9p/AA8sLe08QgMlwm5_9.T.L3CLXKhPBWQo4CAvjG1_H58" autoplay="true">
+        
+    </audio>
+    
+    <audio src="https://prashantdxexp-dev-ed.lightning.salesforce.com/servlet/servlet.FileDownload?file=00P0o00002DTPBu" 
+           autoplay="true">
+    </audio>
+    
+    qqq <audio src="https://prashantdxexp-dev-ed.my.salesforce.com/sfc/p/0o0000016A6V/a/0o000000II9p/AA8sLe08QgMlwm5_9.T.L3CLXKhPBWQo4CAvjG1_H58" 
+               autoplay="true">
+    </audio>
+    <audio >
+        <source src="horse.ogg" type="audio/ogg" preload="auto"/>
+        <source src="horse.mp3" type="audio/mpeg"/>
+        Your browser does not support the audio element.
+    </audio>
+    sdsd
+    -->    
+</aura:component>
