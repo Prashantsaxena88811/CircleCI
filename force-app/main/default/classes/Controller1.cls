@@ -10,4 +10,8 @@ public class Controller1 {
         
     }
     
+	
+}
+
+public test1(){
 }
